@@ -1,0 +1,58 @@
+const buttons = document.querySelectorAll('.button')
+const body = document.querySelector("body")
+
+buttons.forEach(function(button){
+    console.log(button);
+    button.addEventListener('click',function(e){
+        console.log(e);
+        console.log(e.target);
+        if(e.target.id==='color-D6EFD8'){
+            body.style.backgroundColor='#D6EFD8';
+        }
+        if(e.target.id==='color-80AF81'){
+            body.style.backgroundColor='#80AF81';
+        }
+        if(e.target.id==='color-508D4E'){
+            body.style.backgroundColor='#508D4E';
+        }
+        if(e.target.id==='color-1A5319'){
+            body.style.backgroundColor='#1A5319';
+        }
+        if(e.target.id==='color-DBAFA0'){
+            body.style.backgroundColor='#DBAFA0';
+        }
+        if(e.target.id==='color-BB8493'){
+            body.style.backgroundColor='#BB8493';
+        }
+        if(e.target.id==='color-704264'){
+            body.style.backgroundColor='#704264';
+        }
+        if(e.target.id==='color-49243E'){
+            body.style.backgroundColor='#49243E';
+        }
+        if(e.target.id==='color-4AE3B5'){
+            body.style.backgroundColor='#4AE3B5';
+        }
+        if(e.target.id==='color-EEEEEE'){
+            body.style.backgroundColor='#EEEEEE';
+        }
+        if(e.target.id==='color-2A5D67'){
+            body.style.backgroundColor='#2A5D67';
+        }
+        if(e.target.id==='color-171332'){
+            body.style.backgroundColor='#171332';
+        }
+        if(e.target.id==='color-FCDEC0'){
+            body.style.backgroundColor='#FCDEC0';
+        }
+        if(e.target.id==='color-E5B299'){
+            body.style.backgroundColor='#E5B299';
+        }
+        if(e.target.id==='color-B4846C'){
+            body.style.backgroundColor='#B4846C';
+        }
+        if(e.target.id==='color-7D5A50'){
+            body.style.backgroundColor='#7D5A50';
+        }
+    })
+});
